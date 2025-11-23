@@ -12,6 +12,14 @@
     --shadow: 0 10px 30px rgba(0, 229, 255, 0.15);
 }
 
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
 body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--light);
