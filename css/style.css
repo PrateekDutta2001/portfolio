@@ -12,9 +12,9 @@
     --shadow: 0 10px 30px rgba(0, 229, 255, 0.15);
 }
 
-.bg-secondary {
+/* .bg-secondary {
     background-color: var(--secondary) !important;
-}
+} */
 
 .text-secondary {
     color: var(--secondary) !important;
