@@ -33,18 +33,20 @@ document.addEventListener('DOMContentLoaded', function() {
     // Chat data
     const botResponses = {
         greeting: "Hi there! I'm Prateek's portfolio assistant. How can I help you today?",
-        fallback: "I'm not sure I understand. You can ask me about Prateek's skills, work experience, education, publications, or how to contact him.",
+        fallback: "I'm not sure I understand. You can ask me about Prateek's skills, work experience, education, publications, projects like Shambhi.AI, or his tutorials.",
         // Knowledge base
         skills: "Prateek has expertise in Machine Learning, Computer Vision, Deep Learning, Python, NLP, Tensorflow, BERT, Analytics, AWS, Azure, Generative AI, LLM-RAG-LangChain, Tableau & Power BI, Agentic AI, PySpark, Hadoop, and basic HTML-CSS.",
-        projects: "Prateek has worked on several innovative AI products including Insightful, Verbalize, Nutriweaver, iDetect, Humanoid, medBot, and BlinkCheck. He's also developed computational models for COVID-19 predictions and oral cancer diagnosis. Would you like to know more about any specific project?",
+        projects: "Prateek has worked on several innovative AI products including Shambhi.AI, Insightful, Verbalize, Nutriweaver, iDetect, Humanoid, medBot, and BlinkCheck. He's also developed computational models for COVID-19 predictions and oral cancer diagnosis. Would you like to know more about any specific project?",
         experience: "Prateek is currently a Sr. AI Developer at KPMG India (May 2024-Present). Previously, he worked as a Machine Learning Engineer at Dataevolve Solutions (Jun 2023-Apr 2024), Data Science Engineer at Konverge.AI (Jul 2022-Mar 2023), and Research Associate at Curtin University Malaysia (Aug 2021-Jan 2022). He also worked as a Self Product Innovator (part-time freelance) from Aug 2021 to Mar 2024.",
         contact: "You can contact Prateek via email at prateekdutta2001@gmail.com or call at +91 7879362381. You can also connect on LinkedIn or check his portfolio and Google Scholar profiles.",
         about: "Prateek Dutta is an experienced Data & AI Developer focused on Aviation, Healthcare, Finance, and the Public Sector. He has successfully built and deployed scalable models, including a face recognition system validating 2.5 lakhs new users daily. He's a passionate researcher with 20 publications across prestigious platforms like IEEE, SCI, Scopus, AIP, and Springer, along with 2 book publications and 1 Indian patent.",
         education: "Prateek completed his Bachelors of Technology (B.Tech) in Artificial Intelligence (4 Years) from G H Raisoni College of Engineering, Nagpur, India.",
         publications: "Prateek has published 20 research papers in International Conferences & Journals like IEEE, SCI, Springer, Scopus and AIP. He has also published 2 books on Python with AIML and Introduction to application of AI. Additionally, he has an Indian patent for an AI Based Disease Diagnostic System.",
         certifications: "Prateek holds several certifications including Technical Product Management (IIBA-PMI), Developing AI solutions & RAG based Agent on Azure (Microsoft), Generative AI for Product Managers (LinkedIn), GX25 AI Trusted-AI Foundation (KPMG), Consulting Foundations (KPMG), GenAI & Machine Learning (AWS), Data Pattern & Storytelling (Upgrad), Advance Google Analytics, and Industrial AI (LinkedIn).",
+        tutorials: "Prateek offers personalized tutorials on topics like Agentic AI, Inferential Statistics, Neural Networks, Explainable AI, and Prompt Engineering. Check out the 'Personalized Tutorial' section on the page!",
         
         // Project-specific responses
+        shambhi: "Shambhi.AI is an AI-powered code generation platform that transforms natural language descriptions into production-ready code across 13+ programming languages. It helps with application development, code optimization, and code explanation.",
         digiyatra: "Prateek built a computational solution for DigiYatra, a product associated with the Central Government of India for contactless air check-in with real-time facial biometric validation through a mobile application.",
         face_recognition: "Prateek developed a POC for real-time face recognition model to ensure smooth security enablement for Government of India services for Passport Visa Application.",
         text2video: "At Konverge.AI, Prateek developed a solution for Text-2-Video synthesis using GAN Models where users get a choice-based avatar which narrates text in video format.",
@@ -76,6 +78,12 @@ document.addEventListener('DOMContentLoaded', function() {
         "certifications": botResponses.certifications,
         "certificates": botResponses.certifications,
         "certified": botResponses.certifications,
+        "tutorial": botResponses.tutorials,
+        "tutorials": botResponses.tutorials,
+        "learn": botResponses.tutorials,
+        "shambhi": botResponses.shambhi,
+        "shambhu": botResponses.shambhi,
+        "code generation": botResponses.shambhi,
         "digiyatra": botResponses.digiyatra,
         "face recognition": botResponses.face_recognition,
         "facial": botResponses.face_recognition,
