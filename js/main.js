@@ -17,13 +17,8 @@
 
 
     // Navbar on scrolling
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-            $('.navbar').fadeIn('fast').css('display', 'flex');
-        } else {
-            $('.navbar').fadeOut('fast').css('display', 'none');
-        }
-    });
+    // Navbar scroll logic removed to keep it static
+
 
 
     // Smooth scrolling on the navbar links
