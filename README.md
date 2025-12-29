@@ -1,3 +1,5 @@
 # portfolio
 
-https://prateekduttaportfolio.netlify.app/
+https://prateekdutta2001.github.io/portfolio/
+
+prateekdutta.com
